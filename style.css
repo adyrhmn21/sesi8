@@ -1,0 +1,31 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+#welcome-section{
+	background-color:turquoise;
+	display:flex;
+	flex-direction:column;
+	height:100vh;
+	align-items:center;
+	justify-content:center;
+}
+nav{
+	background-color:lime;
+	height:100px;
+	width:100%;
+	position:fixed;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	color:black;
+	z-index:1;
+}
+nav a{
+	font: size 10px;px;
+	margin:0 5% 0 5%;
+}
+nav a:hover{
+	color:red;
+}
